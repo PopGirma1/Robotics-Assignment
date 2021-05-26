@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/papa/Desktop/new/nw-ws/devel/include/arm_lib/arm_joint_angles.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/controller.cpp
 functional
 -
+ros/ros.h
+/home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/ros/ros.h
+std_msgs/Float64.h
+/home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/std_msgs/Float64.h
 gazebo/gazebo.hh
 -
 gazebo/physics/physics.hh
@@ -19,12 +39,10 @@ ignition/math/Vector3.hh
 -
 iostream
 -
-ros/ros.h
-/home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/ros/ros.h
-std_msgs/String.h
-/home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/std_msgs/String.h
 sstream
 -
+arm_lib/arm_joint_angles.h
+/home/papa/Desktop/new/nw-ws/src/arm_gazebo/src/arm_lib/arm_joint_angles.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -674,7 +692,7 @@ ros/forwards.h
 
 /opt/ros/noetic/include/rosconsole/macros_generated.h
 
-/opt/ros/noetic/include/std_msgs/String.h
+/opt/ros/noetic/include/std_msgs/Float64.h
 string
 -
 vector

@@ -14,9 +14,9 @@ def talker():
         input_message.x  = 1 + count
         input_message.y  = 2
         input_message.z  = 3
-        input_message.alpha  = 1
+        input_message.alpha = 1
         input_message.beta  = 2
-        input_message.gamma  = 3
+        input_message.gamma = 3
         input_message.d  = 4
 
         rospy.loginfo(input_message.x)
@@ -24,9 +24,6 @@ def talker():
         pub.publish(input_message)
         rate.sleep()
         count+=1
-
-
-
 if __name__ == '__main__':
     try:
         talker()
